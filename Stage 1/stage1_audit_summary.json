@@ -1,0 +1,61 @@
+{
+  "started_at": "2026-10-22T13:37:04+05:30",
+  "finished_at": "2026-10-22T13:41:08+05:30",
+  "dataset_root": "D:\\FINAL YEAR PROJECT\\IMPLEMENTATION\\output",
+  "output_dir": "D:\\FINAL YEAR PROJECT\\Stage 1",
+  "subject_count": 124,
+  "sequence_folder_count": 13592,
+  "total_image_frames": 1117083,
+  "extensions": {
+    ".png": 1117083
+  },
+  "sequence_counts_by_condition": {
+    "bag": 2718,
+    "coat": 2720,
+    "normal": 8154
+  },
+  "sequence_counts_by_view": {
+    "000": 1230,
+    "018": 1240,
+    "036": 1240,
+    "054": 1234,
+    "072": 1240,
+    "090": 1240,
+    "108": 1240,
+    "126": 1231,
+    "144": 1233,
+    "162": 1229,
+    "180": 1235
+  },
+  "distinct_sequence_names": {
+    "bg-01": 1360,
+    "bg-02": 1358,
+    "cl-01": 1362,
+    "cl-02": 1358,
+    "nm-01": 1355,
+    "nm-02": 1361,
+    "nm-03": 1356,
+    "nm-04": 1356,
+    "nm-05": 1363,
+    "nm-06": 1363
+  },
+  "empty_subjects": [],
+  "unknown_condition_paths": [],
+  "detected_views": [
+    "000",
+    "018",
+    "036",
+    "054",
+    "072",
+    "090",
+    "108",
+    "126",
+    "144",
+    "162",
+    "180"
+  ],
+  "missing_common_views": [],
+  "split_created": true,
+  "split_warning": null,
+  "warnings": []
+}

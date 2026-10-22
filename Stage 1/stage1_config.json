@@ -1,0 +1,30 @@
+{
+  "stage": "Stage 1 — CASIA-B dataset audit and split preparation",
+  "created_at": "2026-10-22T13:41:08+05:30",
+  "dataset_root": "D:\\FINAL YEAR PROJECT\\IMPLEMENTATION\\output",
+  "output_dir": "D:\\FINAL YEAR PROJECT\\Stage 1",
+  "random_seed": 42,
+  "expected_subjects": 124,
+  "detected_subject_count": 124,
+  "requested_split_sizes": {
+    "train": 64,
+    "val": 10,
+    "test": 50
+  },
+  "split_created": true,
+  "image_extensions": [
+    ".bmp",
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".tif",
+    ".tiff",
+    ".webp"
+  ],
+  "notes": [
+    "Dataset files were read only; they were not moved, renamed, or modified.",
+    "Split labels are subject-disjoint and deterministic for a fixed subject list and seed.",
+    "Confirm the dataset layout and sequence coverage before training.",
+    "This stage does not train a model or use a GPU."
+  ]
+}
