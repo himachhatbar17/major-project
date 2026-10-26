@@ -1,0 +1,43 @@
+==============================================================================
+STAGE 6 — CASIA-B SEQUENCE-LENGTH & SAMPLING-POLICY ANALYSIS
+==============================================================================
+Stage 5 dir: D:\FINAL YEAR PROJECT\Stage 5
+Output dir: D:\FINAL YEAR PROJECT\Stage 6
+Training: DISABLED | Source images modified: NO | Split modified: NO
+
+[1/4] Metadata checks
+PASS: manifest rows = 13,592
+PASS: required columns, positive frame counts, unique sequence keys, subject-disjoint split
+
+[2/4] Sequence-length distribution
+split condition  sequence_count  min_frames  q1_frames  median_frames  q3_frames  mean_frames  max_frames  std_frames  below_short_threshold  short_threshold_frames
+ test       bag            1098           1      68.00           81.0      96.00    83.760474         171   22.313095                      6                      20
+ test      coat            1097          23      68.00           80.0      95.00    83.301732         157   20.814727                      0                      20
+ test    normal            3290           3      70.00           83.0      99.00    85.270821         173   22.198527                     20                      20
+train       bag            1402           2      67.00           78.0      91.75    79.883738         158   18.825773                      6                      20
+train      coat            1403           2      66.00           78.0      91.00    79.852459         204   19.625096                      4                      20
+train    normal            4204           1      66.00           79.0      94.00    81.208849         179   20.872650                     20                      20
+  val       bag             218           8      64.25           78.0      88.00    77.821101         143   19.731612                      3                      20
+  val      coat             220          46      65.00           78.0      85.25    77.995455         132   16.529895                      0                      20
+  val    normal             660          39      65.00           81.0      94.00    81.265152         184   20.986179                      0                      20
+Saved: D:\FINAL YEAR PROJECT\Stage 6\stage6_sequence_length_summary.csv
+
+[3/4] Short-sequence audit and candidate sampling budgets
+Sequences shorter than 20 frames: 59 / 13,592
+Saved: D:\FINAL YEAR PROJECT\Stage 6\stage6_short_sequence_audit.csv
+split  candidate_frame_budget  sequence_count  sequences_with_at_least_budget_frames  sequences_shorter_than_budget  fraction_with_at_least_budget_frames  fraction_shorter_than_budget                                                                       note
+train                      16            7009                                   6980                             29                              0.995862                      0.004138 Metadata capacity only; no frames selected and no optimal policy inferred.
+train                      32            7009                                   6974                             35                              0.995006                      0.004994 Metadata capacity only; no frames selected and no optimal policy inferred.
+train                      64            7009                                   5628                           1381                              0.802968                      0.197032 Metadata capacity only; no frames selected and no optimal policy inferred.
+  val                      16            1098                                   1095                              3                              0.997268                      0.002732 Metadata capacity only; no frames selected and no optimal policy inferred.
+  val                      32            1098                                   1095                              3                              0.997268                      0.002732 Metadata capacity only; no frames selected and no optimal policy inferred.
+  val                      64            1098                                    854                            244                              0.777778                      0.222222 Metadata capacity only; no frames selected and no optimal policy inferred.
+ test                      16            5485                                   5465                             20                              0.996354                      0.003646 Metadata capacity only; no frames selected and no optimal policy inferred.
+ test                      32            5485                                   5440                             45                              0.991796                      0.008204 Metadata capacity only; no frames selected and no optimal policy inferred.
+ test                      64            5485                                   4568                            917                              0.832817                      0.167183 Metadata capacity only; no frames selected and no optimal policy inferred.
+Saved: D:\FINAL YEAR PROJECT\Stage 6\stage6_candidate_sampling_summary.csv
+
+[4/4] Final status
+Report saved: D:\FINAL YEAR PROJECT\Stage 6\stage6_sampling_policy_report.json
+Status: PASS
+No training; source images and subject split unchanged.

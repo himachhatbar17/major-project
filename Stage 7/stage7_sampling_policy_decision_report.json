@@ -1,0 +1,47 @@
+{
+  "stage": 7,
+  "status": "PASS",
+  "sequence_count": 13592,
+  "subjects_by_split": {
+    "train": 64,
+    "val": 10,
+    "test": 50
+  },
+  "candidate_budgets": [
+    16,
+    32,
+    64
+  ],
+  "overall_coverage": [
+    {
+      "budget": 16,
+      "sequences_with_enough_frames": 13540,
+      "sequences_shorter_than_budget": 52,
+      "coverage_fraction": 0.996174220129488
+    },
+    {
+      "budget": 32,
+      "sequences_with_enough_frames": 13509,
+      "sequences_shorter_than_budget": 83,
+      "coverage_fraction": 0.9938934667451442
+    },
+    {
+      "budget": 64,
+      "sequences_with_enough_frames": 11050,
+      "sequences_shorter_than_budget": 2542,
+      "coverage_fraction": 0.812978222483814
+    }
+  ],
+  "research_cautions": [
+    "Coverage counts do not establish which budget preserves gait information best.",
+    "A fixed number of frames is not itself a sampling algorithm; temporal spacing and sequence ordering matter.",
+    "Do not discard short sequences solely because they fall below a candidate budget.",
+    "Select and document one policy before model comparison; use the same policy across conditions and views.",
+    "Any eventual model-based comparison should be designed without using test subjects to tune the policy."
+  ],
+  "recommended_next_decision": "Review per-condition coverage, then specify a deterministic temporal sampling rule and a transparent fallback for short sequences. Do not claim an optimal budget from metadata-only counts.",
+  "training_performed": false,
+  "source_images_modified": false,
+  "subject_split_modified": false,
+  "sequences_removed": false
+}

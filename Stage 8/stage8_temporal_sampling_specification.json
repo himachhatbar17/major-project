@@ -1,0 +1,16 @@
+{
+  "stage": 8,
+  "status": "PASS",
+  "candidate_budget": 32,
+  "candidate_sampling_rule": "For sequences with at least budget frames, choose budget evenly spaced zero-based indices from 0 through frame_count-1 using numpy.linspace and round to nearest integer. This is a deterministic dry-run specification, not yet a validated scientific optimum.",
+  "short_sequence_policy": "Unresolved by design. Do not silently repeat frames, pad, or exclude. Select and justify a fallback before actual model input construction.",
+  "sequence_count": 13592,
+  "eligible_sequences": 13509,
+  "short_sequences": 83,
+  "audit_rows_written": 1000,
+  "source_images_opened": false,
+  "source_images_modified": false,
+  "training_performed": false,
+  "subject_split_modified": false,
+  "sequences_removed": false
+}

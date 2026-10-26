@@ -1,0 +1,10 @@
+split,condition,budget,sequence_count,eligible_sequences,short_sequences,eligible_fraction,short_sequence_policy
+train,normal,32,4204,4181,23,0.9945290199809705,not selected in this stage
+train,bag,32,1402,1395,7,0.9950071326676176,not selected in this stage
+train,coat,32,1403,1398,5,0.9964362081254454,not selected in this stage
+val,normal,32,660,660,0,1.0,not selected in this stage
+val,bag,32,218,215,3,0.9862385321100917,not selected in this stage
+val,coat,32,220,220,0,1.0,not selected in this stage
+test,normal,32,3290,3257,33,0.9899696048632218,not selected in this stage
+test,bag,32,1098,1090,8,0.9927140255009107,not selected in this stage
+test,coat,32,1097,1093,4,0.9963536918869644,not selected in this stage

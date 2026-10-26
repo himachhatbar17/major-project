@@ -1,0 +1,37 @@
+==============================================================================
+STAGE 8 — TEMPORAL SAMPLING SPECIFICATION & DRY RUN
+==============================================================================
+Stage 5 dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5
+Stage 7 dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 7
+Output dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 8
+Candidate budget: 32
+Training: DISABLED | Source images modified: NO | Split modified: NO
+
+[1/4] Validate source metadata and Stage 7 evidence
+PASS: manifest rows = 13,592
+PASS: unique keys and subject-disjoint split
+PASS: Stage 7 contains evidence for budget 32
+
+[2/4] Compute deterministic uniform index dry-run
+Sequences audited for index generation: 1,000
+Eligible for 32 unique sampled indices: 13,509
+Shorter than budget and needing a declared fallback: 83
+Saved: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 8\stage8_uniform_sampling_index_audit.csv
+
+[3/4] Summarize sampling eligibility by split and condition
+split condition  budget  sequence_count  eligible_sequences  short_sequences  eligible_fraction      short_sequence_policy
+train    normal      32            4204                4181               23           0.994529 not selected in this stage
+train       bag      32            1402                1395                7           0.995007 not selected in this stage
+train      coat      32            1403                1398                5           0.996436 not selected in this stage
+  val    normal      32             660                 660                0           1.000000 not selected in this stage
+  val       bag      32             218                 215                3           0.986239 not selected in this stage
+  val      coat      32             220                 220                0           1.000000 not selected in this stage
+ test    normal      32            3290                3257               33           0.989970 not selected in this stage
+ test       bag      32            1098                1090                8           0.992714 not selected in this stage
+ test      coat      32            1097                1093                4           0.996354 not selected in this stage
+Saved: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 8\stage8_sampling_eligibility_summary.csv
+
+[4/4] Write policy specification and status
+Report saved: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 8\stage8_temporal_sampling_specification.json
+Status: PASS
+No training; source images and subject split unchanged.

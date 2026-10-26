@@ -1,0 +1,37 @@
+==============================================================================
+STAGE 5 — CASIA-B SEQUENCE-LEVEL DATA PREPARATION
+==============================================================================
+Stage 2 dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 2
+Output dir: D:\FINAL YEAR PROJECT\Stage 5
+Training: DISABLED | Source images modified: NO
+
+[1/4] Metadata checks
+PASS: manifest_rows_13592 = True
+PASS: no_missing_required_values = True
+PASS: positive_frame_counts = True
+PASS: no_duplicate_sequence_keys = True
+PASS: one_split_per_subject = True
+
+[2/4] Sequence manifest: 13592 rows
+Saved: D:\FINAL YEAR PROJECT\Stage 5\stage5_sequence_manifest.csv
+
+[3/4] Frame-count distribution
+split condition  sequence_count  min_frames  median_frames  mean_frames  max_frames  std_frames
+ test       bag            1098           1           81.0    83.760474         171   22.313095
+ test      coat            1097          23           80.0    83.301732         157   20.814727
+ test    normal            3290           3           83.0    85.270821         173   22.198527
+train       bag            1402           2           78.0    79.883738         158   18.825773
+train      coat            1403           2           78.0    79.852459         204   19.625096
+train    normal            4204           1           79.0    81.208849         179    20.87265
+  val       bag             218           8           78.0    77.821101         143   19.731612
+  val      coat             220          46           78.0    77.995455         132   16.529895
+  val    normal             660          39           81.0    81.265152         184   20.986179
+Saved: D:\FINAL YEAR PROJECT\Stage 5\stage5_frame_count_distribution.csv
+
+[4/4] Final status
+Subjects by split: {'train': 64, 'test': 50, 'val': 10}
+Split counts pass: True
+Subject-disjoint: True
+Report saved: D:\FINAL YEAR PROJECT\Stage 5\stage5_sequence_preparation_report.json
+Status: PASS
+No training; source images unchanged.

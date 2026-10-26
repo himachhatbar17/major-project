@@ -1,0 +1,4 @@
+candidate_frame_budget,total_sequences,sequences_with_enough_frames,sequences_shorter_than_budget,coverage_fraction,interpretation
+16,13592,13540,52,0.996174220129488,Lower temporal budget; broad availability
+32,13592,13509,83,0.9938934667451442,Intermediate temporal budget; inspect temporal coverage and short-sequence handling
+64,13592,11050,2542,0.812978222483814,Higher temporal budget; substantially more short sequences require a documented policy

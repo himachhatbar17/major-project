@@ -1,0 +1,10 @@
+split,candidate_frame_budget,sequence_count,sequences_with_at_least_budget_frames,sequences_shorter_than_budget,fraction_with_at_least_budget_frames,fraction_shorter_than_budget,note
+train,16,7009,6980,29,0.9958624625481524,0.004137537451847625,Metadata capacity only; no frames selected and no optimal policy inferred.
+train,32,7009,6974,35,0.9950064203167356,0.0049935796832643745,Metadata capacity only; no frames selected and no optimal policy inferred.
+train,64,7009,5628,1381,0.8029676130689114,0.1970323869310886,Metadata capacity only; no frames selected and no optimal policy inferred.
+val,16,1098,1095,3,0.9972677595628415,0.00273224043715847,Metadata capacity only; no frames selected and no optimal policy inferred.
+val,32,1098,1095,3,0.9972677595628415,0.00273224043715847,Metadata capacity only; no frames selected and no optimal policy inferred.
+val,64,1098,854,244,0.7777777777777778,0.2222222222222222,Metadata capacity only; no frames selected and no optimal policy inferred.
+test,16,5485,5465,20,0.9963536918869644,0.0036463081130355514,Metadata capacity only; no frames selected and no optimal policy inferred.
+test,32,5485,5440,45,0.99179580674567,0.008204193254329991,Metadata capacity only; no frames selected and no optimal policy inferred.
+test,64,5485,4568,917,0.8328167730173199,0.16718322698268004,Metadata capacity only; no frames selected and no optimal policy inferred.

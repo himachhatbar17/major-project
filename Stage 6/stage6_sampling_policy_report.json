@@ -1,0 +1,29 @@
+{
+  "stage": 6,
+  "status": "PASS",
+  "input_manifest": "D:\\FINAL YEAR PROJECT\\Stage 5\\stage5_sequence_manifest.csv",
+  "sequence_count": 13592,
+  "duplicate_sequence_keys": 0,
+  "subjects_with_split_leakage": 0,
+  "subjects_by_split": {
+    "test": 50,
+    "train": 64,
+    "val": 10
+  },
+  "frame_count_min": 1,
+  "frame_count_median": 80.0,
+  "frame_count_mean": 82.18680105944674,
+  "frame_count_max": 204,
+  "short_sequence_threshold": 20,
+  "short_sequence_count": 59,
+  "short_sequence_fraction": 0.0043407886992348444,
+  "candidate_frame_budgets": [
+    16,
+    32,
+    64
+  ],
+  "interpretation": "Candidate budgets are compared only for frame-count capacity. This does not select frames or establish an optimal sampling policy.",
+  "training_performed": false,
+  "source_images_modified": false,
+  "split_modified": false
+}
