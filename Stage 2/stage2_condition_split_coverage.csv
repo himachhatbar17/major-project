@@ -1,0 +1,10 @@
+﻿split,condition,subjects,sequences,frames
+test,bag,50,1098,91969
+test,coat,50,1097,91382
+test,normal,50,3290,280541
+train,bag,64,1402,111997
+train,coat,64,1403,112033
+train,normal,64,4204,341402
+val,bag,10,218,16965
+val,coat,10,220,17159
+val,normal,10,660,53635

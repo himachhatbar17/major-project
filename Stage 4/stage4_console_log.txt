@@ -1,0 +1,38 @@
+================================================================================
+STAGE 4 — PREPROCESSING SPECIFICATION AND PIPELINE VALIDATION
+================================================================================
+Stage 2 dir: D:\FINAL YEAR PROJECT\Stage 2
+Stage 3 report: D:\FINAL YEAR PROJECT\Stage 3 Full Scan\stage3_qc_report.json
+Output dir: D:\FINAL YEAR PROJECT\Stage 4
+Training: DISABLED | Source images modified: NO
+
+[1/4] Input checks
+PASS: manifest_rows_13592 = True
+PASS: expected_conditions_present = True
+PASS: expected_views_present = True
+PASS: no_missing_required_values = True
+PASS: positive_frame_counts = True
+PASS: stage3_checked_1117083_frames = True
+PASS: stage3_zero_failed_records = True
+PASS: stage3_zero_missing_sequence_dirs = True
+PASS: stage3_zero_sequences_without_pngs = True
+
+[2/4] Split contract
+Unique subjects by split: {'train': 64, 'test': 50, 'val': 10}
+Split counts correct: True
+Subject-disjoint: True
+
+[3/4] Deterministic load smoke test: 50 frames
+Progress: 10/50
+Progress: 20/50
+Progress: 30/50
+Progress: 40/50
+Progress: 50/50
+Smoke test saved: D:\FINAL YEAR PROJECT\Stage 4\stage4_smoke_test.csv
+Smoke test passed: True
+
+[4/4] Artifacts
+Preprocessing spec: D:\FINAL YEAR PROJECT\Stage 4\stage4_preprocessing_spec.json
+Validation report: D:\FINAL YEAR PROJECT\Stage 4\stage4_validation_report.json
+Status: PASS
+No model training was performed. Source images were not modified.

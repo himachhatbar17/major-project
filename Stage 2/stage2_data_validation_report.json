@@ -1,0 +1,54 @@
+{
+  "stage": "Stage 2 — CASIA-B data validation and experiment setup",
+  "started_at": "2026-10-23T09:55:56+05:30",
+  "finished_at": "2026-10-23T09:56:06+05:30",
+  "stage1_dir": "D:\\FINAL YEAR PROJECT\\IMPLEMENTATION\\Stage 1",
+  "output_dir": "D:\\FINAL YEAR PROJECT\\Stage 2",
+  "seed": 42,
+  "manifest_rows": 13592,
+  "unique_subjects": 124,
+  "total_recorded_frames": 1117083,
+  "conditions": [
+    "bag",
+    "coat",
+    "normal"
+  ],
+  "views": [
+    "000",
+    "018",
+    "036",
+    "054",
+    "072",
+    "090",
+    "108",
+    "126",
+    "144",
+    "162",
+    "180"
+  ],
+  "sequence_labels": [
+    "bg-01",
+    "bg-02",
+    "cl-01",
+    "cl-02",
+    "nm-01",
+    "nm-02",
+    "nm-03",
+    "nm-04",
+    "nm-05",
+    "nm-06"
+  ],
+  "split_subject_counts": {
+    "train": 64,
+    "test": 50,
+    "val": 10
+  },
+  "duplicate_sequence_paths": 0,
+  "duplicate_sequence_keys": 0,
+  "path_check_skipped": false,
+  "path_check_rows": 13592,
+  "missing_sequence_dirs": 0,
+  "missing_first_frames": 0,
+  "missing_last_frames": 0,
+  "status": "PASS"
+}

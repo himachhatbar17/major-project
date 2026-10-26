@@ -1,0 +1,65 @@
+========================================================================================
+STAGE 2 — CASIA-B DATA VALIDATION AND EXPERIMENT SETUP
+========================================================================================
+Started at  : 2026-10-23T09:55:56+05:30
+Stage 1 dir : D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 1
+Output dir  : D:\FINAL YEAR PROJECT\Stage 2
+Seed        : 42
+Training    : DISABLED (this stage is validation only)
+
+[1/8] Required Stage 1 files found: 5/5
+
+[2/8] Loaded artifacts
+Manifest shape       : (13592, 9)
+Subject summary shape: (124, 4)
+Split table shape    : (124, 3)
+PASS: Required columns and basic metadata.
+
+[3/8] Label and viewpoint coverage
+Observed views: 000, 018, 036, 054, 072, 090, 108, 126, 144, 162, 180
+Missing expected views: none
+Observed conditions: ['bag', 'coat', 'normal']
+Condition counts:
+ condition
+normal    8154
+coat      2720
+bag       2718
+Sequence label counts:
+ sequence
+bg-01    1360
+bg-02    1358
+cl-01    1362
+cl-02    1358
+nm-01    1355
+nm-02    1361
+nm-03    1356
+nm-04    1356
+nm-05    1363
+nm-06    1363
+PASS: Expected conditions, views, and sequence labels.
+
+[4/8] Subject split validation
+train: 64 (expected 64)
+  val: 10 (expected 10)
+ test: 50 (expected 50)
+PASS: Split counts and subject-disjointness.
+
+[5/8] Duplicate checks
+Duplicate sequence paths: 0
+Duplicate (subject, view, sequence) keys: 0
+
+[6/8] On-disk path validation
+Rows checked: 13592
+Missing sequence directories: 0
+Missing first-frame paths: 0
+Missing last-frame paths: 0
+PASS: Checked paths exist.
+
+[7/8] Summaries and outputs
+Validated manifest saved: D:\FINAL YEAR PROJECT\Stage 2\stage2_manifest_validated.csv
+Coverage table saved    : D:\FINAL YEAR PROJECT\Stage 2\stage2_condition_split_coverage.csv
+Validation report saved : D:\FINAL YEAR PROJECT\Stage 2\stage2_data_validation_report.json
+
+[8/8] STAGE 2 FINISHED
+Status: PASS
+No model training was performed. Source images were not modified.

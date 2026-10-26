@@ -1,0 +1,57 @@
+{
+  "stage": 4,
+  "title": "Preprocessing specification and pipeline validation",
+  "created_at": "2026-10-26T15:15:20+05:30",
+  "input_manifest": "D:\\FINAL YEAR PROJECT\\Stage 2\\stage2_manifest_validated.csv",
+  "stage3_report": "D:\\FINAL YEAR PROJECT\\Stage 3 Full Scan\\stage3_qc_report.json",
+  "source_data_modified": false,
+  "training_performed": false,
+  "split_policy": {
+    "subject_disjoint": true,
+    "expected_subject_counts": {
+      "train": 64,
+      "val": 10,
+      "test": 50
+    },
+    "split_recreated": false
+  },
+  "input_contract": {
+    "source_format": "PNG",
+    "observed_dimensions": "64x64 (from Stage 3 report)",
+    "load_as": "8-bit grayscale uint8 array",
+    "thresholding": "none",
+    "cropping": "none",
+    "resizing": "none",
+    "normalization": "not applied in this stage; specify and version before training",
+    "augmentation": "none",
+    "frame_order": "preserve numeric filename/frame order; never shuffle within a sequence",
+    "sequence_sampling": "must be fixed before comparative experiments"
+  },
+  "input_checks": {
+    "manifest_rows_13592": true,
+    "expected_conditions_present": true,
+    "expected_views_present": true,
+    "no_missing_required_values": true,
+    "positive_frame_counts": true,
+    "stage3_checked_1117083_frames": true,
+    "stage3_zero_failed_records": true,
+    "stage3_zero_missing_sequence_dirs": true,
+    "stage3_zero_sequences_without_pngs": true
+  },
+  "split_counts": {
+    "train": 64,
+    "test": 50,
+    "val": 10
+  },
+  "split_counts_pass": true,
+  "subject_disjoint_pass": true,
+  "smoke_test_requested": true,
+  "smoke_test_pass": true,
+  "elapsed_seconds": 0.74,
+  "notes": [
+    "This stage does not train or extract embeddings.",
+    "Grayscale conversion preserves intensity levels as uint8 but may convert a source mode to grayscale.",
+    "No thresholding, cropping, resizing, normalization, or augmentation is applied here.",
+    "Stage 3 readability checks do not prove semantic silhouette correctness."
+  ]
+}

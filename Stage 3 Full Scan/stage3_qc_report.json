@@ -1,0 +1,35 @@
+{
+  "stage": 3,
+  "title": "CASIA-B silhouette quality control",
+  "created_at": "2026-10-25T23:42:43+05:30",
+  "stage2_manifest": "D:\\FINAL YEAR PROJECT\\Stage 2\\stage2_manifest_validated.csv",
+  "manifest_rows": 13592,
+  "sequences_selected": 13592,
+  "mode": "full_scan",
+  "samples_per_sequence_requested": 2,
+  "max_sequences_setting": 300,
+  "images_checked": 1117083,
+  "successful_image_reads": 1117083,
+  "failed_or_missing_image_records": 0,
+  "missing_sequence_directories": 0,
+  "sequences_without_png_frames": 0,
+  "binary_like_images": 633,
+  "dimension_counts": [
+    {
+      "width": 64,
+      "height": 64,
+      "image_count": 1117083
+    }
+  ],
+  "foreground_occupancy_outliers": 0,
+  "occupancy_thresholds": {
+    "minimum": 0.001,
+    "maximum": 0.95
+  },
+  "notes": [
+    "Sampled mode is a screening audit, not proof that every frame is valid.",
+    "Non-zero foreground occupancy is a diagnostic assumption; inspect sample images before setting exclusions.",
+    "No images were modified or deleted. No model training was performed."
+  ],
+  "elapsed_seconds": 9379.5
+}

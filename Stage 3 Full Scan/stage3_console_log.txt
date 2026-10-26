@@ -1,0 +1,158 @@
+====================================================================================
+STAGE 3 — CASIA-B SILHOUETTE QUALITY CONTROL
+====================================================================================
+Started at  : 2026-10-25T21:06:23+05:30
+Stage 2 dir : D:\FINAL YEAR PROJECT\Stage 2
+Output dir  : D:\FINAL YEAR PROJECT\Stage 3 Full Scan
+Training    : DISABLED
+Source edits: NONE
+Manifest rows: 13592
+Sequence path column: sequence_path
+Manifest columns: ['subject_id', 'view', 'condition', 'sequence', 'sequence_path', 'frame_count', 'extensions', 'first_frame', 'last_frame', 'split']
+Sequences selected: 13592 (FULL SCAN)
+Progress: 100/13592 sequences processed
+Progress: 200/13592 sequences processed
+Progress: 300/13592 sequences processed
+Progress: 400/13592 sequences processed
+Progress: 500/13592 sequences processed
+Progress: 600/13592 sequences processed
+Progress: 700/13592 sequences processed
+Progress: 800/13592 sequences processed
+Progress: 900/13592 sequences processed
+Progress: 1000/13592 sequences processed
+Progress: 1100/13592 sequences processed
+Progress: 1200/13592 sequences processed
+Progress: 1300/13592 sequences processed
+Progress: 1400/13592 sequences processed
+Progress: 1500/13592 sequences processed
+Progress: 1600/13592 sequences processed
+Progress: 1700/13592 sequences processed
+Progress: 1800/13592 sequences processed
+Progress: 1900/13592 sequences processed
+Progress: 2000/13592 sequences processed
+Progress: 2100/13592 sequences processed
+Progress: 2200/13592 sequences processed
+Progress: 2300/13592 sequences processed
+Progress: 2400/13592 sequences processed
+Progress: 2500/13592 sequences processed
+Progress: 2600/13592 sequences processed
+Progress: 2700/13592 sequences processed
+Progress: 2800/13592 sequences processed
+Progress: 2900/13592 sequences processed
+Progress: 3000/13592 sequences processed
+Progress: 3100/13592 sequences processed
+Progress: 3200/13592 sequences processed
+Progress: 3300/13592 sequences processed
+Progress: 3400/13592 sequences processed
+Progress: 3500/13592 sequences processed
+Progress: 3600/13592 sequences processed
+Progress: 3700/13592 sequences processed
+Progress: 3800/13592 sequences processed
+Progress: 3900/13592 sequences processed
+Progress: 4000/13592 sequences processed
+Progress: 4100/13592 sequences processed
+Progress: 4200/13592 sequences processed
+Progress: 4300/13592 sequences processed
+Progress: 4400/13592 sequences processed
+Progress: 4500/13592 sequences processed
+Progress: 4600/13592 sequences processed
+Progress: 4700/13592 sequences processed
+Progress: 4800/13592 sequences processed
+Progress: 4900/13592 sequences processed
+Progress: 5000/13592 sequences processed
+Progress: 5100/13592 sequences processed
+Progress: 5200/13592 sequences processed
+Progress: 5300/13592 sequences processed
+Progress: 5400/13592 sequences processed
+Progress: 5500/13592 sequences processed
+Progress: 5600/13592 sequences processed
+Progress: 5700/13592 sequences processed
+Progress: 5800/13592 sequences processed
+Progress: 5900/13592 sequences processed
+Progress: 6000/13592 sequences processed
+Progress: 6100/13592 sequences processed
+Progress: 6200/13592 sequences processed
+Progress: 6300/13592 sequences processed
+Progress: 6400/13592 sequences processed
+Progress: 6500/13592 sequences processed
+Progress: 6600/13592 sequences processed
+Progress: 6700/13592 sequences processed
+Progress: 6800/13592 sequences processed
+Progress: 6900/13592 sequences processed
+Progress: 7000/13592 sequences processed
+Progress: 7100/13592 sequences processed
+Progress: 7200/13592 sequences processed
+Progress: 7300/13592 sequences processed
+Progress: 7400/13592 sequences processed
+Progress: 7500/13592 sequences processed
+Progress: 7600/13592 sequences processed
+Progress: 7700/13592 sequences processed
+Progress: 7800/13592 sequences processed
+Progress: 7900/13592 sequences processed
+Progress: 8000/13592 sequences processed
+Progress: 8100/13592 sequences processed
+Progress: 8200/13592 sequences processed
+Progress: 8300/13592 sequences processed
+Progress: 8400/13592 sequences processed
+Progress: 8500/13592 sequences processed
+Progress: 8600/13592 sequences processed
+Progress: 8700/13592 sequences processed
+Progress: 8800/13592 sequences processed
+Progress: 8900/13592 sequences processed
+Progress: 9000/13592 sequences processed
+Progress: 9100/13592 sequences processed
+Progress: 9200/13592 sequences processed
+Progress: 9300/13592 sequences processed
+Progress: 9400/13592 sequences processed
+Progress: 9500/13592 sequences processed
+Progress: 9600/13592 sequences processed
+Progress: 9700/13592 sequences processed
+Progress: 9800/13592 sequences processed
+Progress: 9900/13592 sequences processed
+Progress: 10000/13592 sequences processed
+Progress: 10100/13592 sequences processed
+Progress: 10200/13592 sequences processed
+Progress: 10300/13592 sequences processed
+Progress: 10400/13592 sequences processed
+Progress: 10500/13592 sequences processed
+Progress: 10600/13592 sequences processed
+Progress: 10700/13592 sequences processed
+Progress: 10800/13592 sequences processed
+Progress: 10900/13592 sequences processed
+Progress: 11000/13592 sequences processed
+Progress: 11100/13592 sequences processed
+Progress: 11200/13592 sequences processed
+Progress: 11300/13592 sequences processed
+Progress: 11400/13592 sequences processed
+Progress: 11500/13592 sequences processed
+Progress: 11600/13592 sequences processed
+Progress: 11700/13592 sequences processed
+Progress: 11800/13592 sequences processed
+Progress: 11900/13592 sequences processed
+Progress: 12000/13592 sequences processed
+Progress: 12100/13592 sequences processed
+Progress: 12200/13592 sequences processed
+Progress: 12300/13592 sequences processed
+Progress: 12400/13592 sequences processed
+Progress: 12500/13592 sequences processed
+Progress: 12600/13592 sequences processed
+Progress: 12700/13592 sequences processed
+Progress: 12800/13592 sequences processed
+Progress: 12900/13592 sequences processed
+Progress: 13000/13592 sequences processed
+Progress: 13100/13592 sequences processed
+Progress: 13200/13592 sequences processed
+Progress: 13300/13592 sequences processed
+Progress: 13400/13592 sequences processed
+Progress: 13500/13592 sequences processed
+Progress: 13592/13592 sequences processed
+QC output saved: D:\FINAL YEAR PROJECT\Stage 3 Full Scan\stage3_frame_qc.csv
+Dimension summary saved: D:\FINAL YEAR PROJECT\Stage 3 Full Scan\stage3_dimension_summary.csv
+Report saved: D:\FINAL YEAR PROJECT\Stage 3 Full Scan\stage3_qc_report.json
+Images checked: 1117083
+Successful reads: 1117083
+Failed/missing records: 0
+Foreground occupancy outliers: 0
+Elapsed seconds: 9379.5
+STAGE 3 SCREENING FINISHED
+Interpret findings before defining any exclusions or preprocessing.
