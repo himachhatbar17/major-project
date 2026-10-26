@@ -1,0 +1,37 @@
+{
+  "stage": 10,
+  "status": "IMPLEMENTATION_SCAFFOLD",
+  "manifest_rows": 13592,
+  "subjects_by_split": {
+    "train": 64,
+    "val": 10,
+    "test": 50
+  },
+  "candidate_frames": 32,
+  "image_size": 64,
+  "embedding_dim": 256,
+  "objectives_implemented": [
+    "paired-view NT-Xent temporal contrastive objective",
+    "masked temporal-frame silhouette reconstruction objective"
+  ],
+  "training_performed": false,
+  "optimizer_steps": 0,
+  "dataset_modified": false,
+  "warning": "Contrastive positive-pair augmentations and the final masked-input protocol must be specified and scientifically justified before training. This scaffold only defines model components and losses.",
+  "smoke_test": {
+    "device": "cpu",
+    "embedding_shape": [
+      2,
+      256
+    ],
+    "contrastive_loss_finite": true,
+    "reconstruction_shape": [
+      2,
+      1,
+      32,
+      64,
+      64
+    ],
+    "reconstruction_loss_finite": true
+  }
+}

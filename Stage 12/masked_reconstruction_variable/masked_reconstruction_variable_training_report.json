@@ -1,0 +1,36 @@
+{
+  "status": "TRAINING_COMPLETED",
+  "objective": "masked_reconstruction",
+  "sampling_policy": "variable",
+  "epochs_requested": 1,
+  "best_validation_loss": 0.5198703289031983,
+  "subjects_by_split": {
+    "train": 64,
+    "val": 10,
+    "test": 50
+  },
+  "test_subjects_loaded": false,
+  "training_labels_use_subject_identity": false,
+  "args": {
+    "stage5_dir": ".\\IMPLEMENTATION\\Stage 5",
+    "dataset_root": ".\\IMPLEMENTATION\\output",
+    "output_dir": ".\\IMPLEMENTATION\\Stage 12",
+    "objective": "masked_reconstruction",
+    "sampling_policy": "variable",
+    "frames": 32,
+    "image_size": 64,
+    "embedding_dim": 256,
+    "epochs": 1,
+    "batch_size": 4,
+    "workers": 0,
+    "lr": 0.0001,
+    "weight_decay": 0.0001,
+    "temperature": 0.2,
+    "mask_fraction": 0.25,
+    "seed": 42,
+    "max_train_batches": 10,
+    "max_val_batches": 5,
+    "train": true,
+    "skip_test_evaluation": true
+  }
+}

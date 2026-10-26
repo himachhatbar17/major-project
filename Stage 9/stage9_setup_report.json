@@ -1,0 +1,17 @@
+{
+  "stage": 9,
+  "status": "PASS",
+  "manifest_rows": 13592,
+  "subjects_by_split": {
+    "train": 64,
+    "val": 10,
+    "test": 50
+  },
+  "candidate_frame_budget": 32,
+  "eligible_sequences": 13509,
+  "short_sequences_requiring_policy": 83,
+  "configuration_created": "D:\\FINAL YEAR PROJECT\\IMPLEMENTATION\\Stage 9\\stage9_experiment_config.json",
+  "training_started": false,
+  "image_pixels_loaded": false,
+  "dataset_modified": false
+}

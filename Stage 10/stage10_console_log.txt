@@ -1,0 +1,39 @@
+==============================================================================
+STAGE 10 — SHARED GAIT ENCODER & SELF-SUPERVISED OBJECTIVES
+==============================================================================
+Manifest: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5\stage5_sequence_manifest.csv
+Dataset root: D:\FINAL YEAR PROJECT\IMPLEMENTATION\output
+Output dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 10
+Frames candidate: 32 | Image size: 64 | Embedding dim: 256
+TRAINING: DISABLED — no optimizer steps will run.
+
+STAGE 10 FAILED
+NotADirectoryError: Dataset root not found: D:\FINAL YEAR PROJECT\IMPLEMENTATION\output
+==============================================================================
+STAGE 10 — SHARED GAIT ENCODER & SELF-SUPERVISED OBJECTIVES
+==============================================================================
+Manifest: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5\stage5_sequence_manifest.csv
+Dataset root: D:\FINAL YEAR PROJECT\IMPLEMENTATION\output
+Output dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 10
+Frames candidate: 32 | Image size: 64 | Embedding dim: 256
+TRAINING: DISABLED — no optimizer steps will run.
+
+STAGE 10 FAILED
+NameError: name 'REQUIRED' is not defined
+==============================================================================
+STAGE 10 — SHARED GAIT ENCODER & SELF-SUPERVISED OBJECTIVES
+==============================================================================
+Manifest: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5\stage5_sequence_manifest.csv
+Dataset root: D:\FINAL YEAR PROJECT\IMPLEMENTATION\output
+Output dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 10
+Frames candidate: 32 | Image size: 64 | Embedding dim: 256
+TRAINING: DISABLED — no optimizer steps will run.
+PASS: manifest rows = 13,592; fixed subject split = {'train': 64, 'val': 10, 'test': 50}
+Smoke-test device: cpu
+PASS: encoder embedding shape = (2, 256)
+PASS: contrastive loss is finite = True
+PASS: reconstruction logits shape = (2, 1, 32, 64, 64)
+PASS: masked reconstruction loss is finite = True
+Report saved: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 10\stage10_implementation_report.json
+Status: PASS — architecture/objective scaffold only.
+No training performed; no optimizer steps; dataset unchanged.

@@ -1,0 +1,13 @@
+==============================================================================
+STAGE 9 — UNSUPERVISED GAIT REPRESENTATION MODEL CONFIG
+==============================================================================
+Stage 5 dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5
+Output dir: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 9
+Training: DISABLED | Image pixels loaded: NO | Dataset modified: NO
+PASS: manifest rows = 13,592
+PASS: fixed subject split = {'train': 64, 'val': 10, 'test': 50}
+Candidate 32-frame eligible sequences = 13,509
+Sequences needing short-sequence policy = 83
+Config saved: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 9\stage9_experiment_config.json
+Report saved: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 9\stage9_setup_report.json
+Status: PASS — scaffold only; no training or image loading.

@@ -1,0 +1,24 @@
+==============================================================================
+STAGE 12 — CONTROLLED SELF-SUPERVISED GAIT COMPARISON
+==============================================================================
+Manifest: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5\stage5_sequence_manifest.csv
+Dataset root: D:\FINAL YEAR PROJECT\IMPLEMENTATION\output
+Objective: masked_reconstruction; sampling policy: variable
+Frames: 32; image size: 64; embedding dim: 256
+Training explicitly enabled: False
+PASS: manifest rows = 13,592; subject split = {'train': 64, 'val': 10, 'test': 50}
+
+STAGE 11 FAILED
+NameError: name 'pad_collate' is not defined
+==============================================================================
+STAGE 12 — CONTROLLED SELF-SUPERVISED GAIT COMPARISON
+==============================================================================
+Manifest: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5\stage5_sequence_manifest.csv
+Dataset root: D:\FINAL YEAR PROJECT\IMPLEMENTATION\output
+Objective: masked_reconstruction; sampling policy: variable
+Frames: 32; image size: 64; embedding dim: 256
+Training explicitly enabled: False
+PASS: manifest rows = 13,592; subject split = {'train': 64, 'val': 10, 'test': 50}
+Device: cpu; train sequences: 7,009; val sequences: 1,098
+PASS: real data batch loaded; output shape = [4, 1, 32, 64, 64]; finite loss = True
+No optimizer steps taken. To train, rerun with --train after reviewing configuration.

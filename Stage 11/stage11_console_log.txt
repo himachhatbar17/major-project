@@ -1,0 +1,23 @@
+==============================================================================
+STAGE 11 — SELF-SUPERVISED GAIT TRAINING PIPELINE
+==============================================================================
+Manifest: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5\stage5_sequence_manifest.csv
+Dataset root: D:\ACTUAL\CASIA-B\PATH
+Objective: contrastive
+Frames: 32; image size: 64; embedding dim: 256
+Training explicitly enabled: False
+
+STAGE 11 FAILED
+NotADirectoryError: Dataset root not found: D:\ACTUAL\CASIA-B\PATH. Supply the actual folder containing CASIA-B subjects.
+==============================================================================
+STAGE 11 — SELF-SUPERVISED GAIT TRAINING PIPELINE
+==============================================================================
+Manifest: D:\FINAL YEAR PROJECT\IMPLEMENTATION\Stage 5\stage5_sequence_manifest.csv
+Dataset root: D:\FINAL YEAR PROJECT\IMPLEMENTATION\output
+Objective: contrastive
+Frames: 32; image size: 64; embedding dim: 256
+Training explicitly enabled: False
+PASS: manifest rows = 13,592; subject split = {'train': 64, 'val': 10, 'test': 50}
+Device: cpu; train sequences: 7,009; val sequences: 1,098
+PASS: real data batch loaded; output shape = [4, 128]; finite loss = True
+No optimizer steps taken. To train, rerun with --train after reviewing configuration.

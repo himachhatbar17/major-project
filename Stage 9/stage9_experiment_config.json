@@ -1,0 +1,64 @@
+{
+  "stage": 9,
+  "project": "Covariate-Aware, Label-Free Model Selection for Self-Supervised Gait Representations",
+  "status": "CONFIG_SCAFFOLD_ONLY",
+  "dataset": {
+    "name": "CASIA-B",
+    "manifest_path": "D:\\FINAL YEAR PROJECT\\IMPLEMENTATION\\Stage 5\\stage5_sequence_manifest.csv",
+    "sequence_count": 13592,
+    "subjects_by_split": {
+      "train": 64,
+      "val": 10,
+      "test": 50
+    },
+    "condition_sequence_counts": {
+      "normal": 8154,
+      "coat": 2720,
+      "bag": 2718
+    },
+    "subject_disjoint_split_required": true,
+    "split_is_frozen": true
+  },
+  "input_pipeline_candidate": {
+    "image_size": [
+      64,
+      64
+    ],
+    "input_representation": "single-channel grayscale silhouette",
+    "candidate_frames_per_sequence": 32,
+    "temporal_sampling": "deterministic uniform sampling across sequence extent",
+    "short_sequence_count": 83,
+    "eligible_sequence_count": 13509,
+    "short_sequence_policy": "UNRESOLVED \u2014 decide before any training",
+    "normalization": "UNRESOLVED \u2014 define from actual image representation before training",
+    "augmentation": "UNRESOLVED \u2014 specify and justify before training"
+  },
+  "representation_model": {
+    "family": "3D CNN or temporal CNN encoder",
+    "encoder_architecture": "UNRESOLVED \u2014 choose after confirming research protocol",
+    "embedding_dimension_candidate": 256,
+    "projection_head": "UNRESOLVED",
+    "temporal_aggregation": "UNRESOLVED"
+  },
+  "self_supervised_objective": {
+    "primary_objective": "UNRESOLVED \u2014 must be selected before implementation",
+    "positive_pair_definition": "UNRESOLVED",
+    "negative_pairs_or_collapse_prevention": "UNRESOLVED",
+    "identity_labels_used_for_training": false,
+    "identity_labels_allowed_for_evaluation_only": true
+  },
+  "experiment_control": {
+    "random_seed": 42,
+    "train_subjects": 64,
+    "validation_subjects": 10,
+    "test_subjects": 50,
+    "test_set_used_for_model_selection": false,
+    "training_started": false
+  },
+  "next_required_decisions": [
+    "Choose and justify one self-supervised pretext objective (not several at once by default).",
+    "Specify the treatment of sequences shorter than the frame budget without silent exclusion.",
+    "Specify the temporal encoder and embedding/aggregation design.",
+    "Define covariate measurements and evaluation protocol before test evaluation."
+  ]
+}
